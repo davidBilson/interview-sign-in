@@ -10,7 +10,7 @@ function App() {
     <>
     <Navbar />
     <Routes>
-      <Route exact path='/{interview-app}' element={<Home />} />
+      <Route exact path='/' element={<Home />} />
       <Route exact path='checkout' element={<Checkout />} />
     </Routes>
     </>
